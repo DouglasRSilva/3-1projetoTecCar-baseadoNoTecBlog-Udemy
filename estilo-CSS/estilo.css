@@ -1,0 +1,88 @@
+/*Limpando as formatações do browser*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif ;
+    background: rgb(243, 174, 174);
+} 
+
+/*Formatações da nav-bar*/
+#nav-bar{
+    background: rgb(101, 101, 184);
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+#logo, #menu{
+    padding: 10px;
+}
+
+/*Formatação do conteudo*/
+#conteudo{
+    background: rgb(243, 174, 174);
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+}
+#area-postagens, #postagens{
+    width: 750px;
+    float: left;
+    margin-bottom: 20px;
+}
+#postagens{
+    background: white;
+}
+#area-lateral{
+    width: 230px;
+    float: right;  
+}
+#noticias{
+    background: yellow;
+}
+#categoria{
+    background: yellow;
+    margin-top: 10px;
+}
+#rodape{
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    background: aqua;
+}
+.area-noticia, .area-categoria{
+    padding: -5px;
+    width: 220px;
+    border: 1px dotted grey;
+    margin: auto;
+}
+
+
+/*Formatação de cores*/
+.color{
+    color: white;
+}
+
+/*Formatação de textos*/
+h1{
+    padding: 10px;
+    color: brown;
+}
+h3{
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8em;
+    background: rgb(156, 156, 156);
+}
+p, span{
+    font-size: 0.6em;
+    padding: 10px;
+}
+
+
+/*Formatação de imagens*/
+img{
+    padding: 10px;
+}
