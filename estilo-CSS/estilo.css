@@ -6,12 +6,12 @@
 body{
     font-size: 2em;
     font-family:Arial, Helvetica, sans-serif ;
-    background: rgb(243, 174, 174);
+    background: rgb(206, 223, 238);
 } 
 
 /*Formatações da nav-bar*/
 #nav-bar{
-    background: rgb(101, 101, 184);
+    background: rgb(118, 161, 240);
     width: auto;
     padding: 20px;
     text-align: center;
@@ -22,13 +22,12 @@ body{
 
 /*Formatação do conteudo*/
 #conteudo{
-    background: rgb(243, 174, 174);
     width: 1000px;
     margin: auto;
     margin-top: 10px;
 }
 #area-postagens, #postagens{
-    width: 750px;
+    width: 740px;
     float: left;
     margin-bottom: 20px;
 }
@@ -36,24 +35,24 @@ body{
     background: white;
 }
 #area-lateral{
-    width: 230px;
+    width: 245px;
     float: right;  
 }
 #noticias{
-    background: yellow;
+    background: white;
 }
 #categoria{
-    background: yellow;
+    background: white;
     margin-top: 10px;
 }
 #rodape{
     padding: 10px;
     text-align: center;
     clear: both;
-    background: aqua;
+    background: rgb(162, 174, 185);
 }
 .area-noticia, .area-categoria{
-    padding: -5px;
+    padding: 8px;
     width: 220px;
     border: 1px dotted grey;
     margin: auto;
@@ -66,23 +65,57 @@ body{
 }
 
 /*Formatação de textos*/
-h1{
+#postagens h1{
     padding: 10px;
-    color: brown;
+    color: rgb(167, 100, 100);
 }
 h3{
-    padding: 10px;
+    padding: 8px;
     text-align: center;
     font-size: 0.8em;
     background: rgb(156, 156, 156);
 }
-p, span{
+p, #postagens span{
     font-size: 0.6em;
-    padding: 10px;
+    padding: 8px;
 }
 
 
 /*Formatação de imagens*/
 img{
     padding: 10px;
+}
+
+/*Formatação de links */
+#nav-bar a{
+    padding: 10px;
+    color: rgb(45, 34, 54);
+    text-decoration: none;
+}
+#nav-bar a:hover{
+    background: rgb(100, 148, 238);
+    padding: 10px;
+    color: rgb(142, 214, 142);
+}
+
+#area-postagens a{
+    font-size: 0.6em;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(100, 148, 238);
+}
+#area-postagens a:hover{
+    color: rgb(80, 136, 240);
+}
+
+#categoria a{
+    padding: 8px;
+    font-size: 0.7em;
+    text-decoration: none;
+    color: rgb(45, 34, 54);
+}
+#categoria a:hover{
+    padding: 8px;
+    background: rgb(240, 224, 224);
+    color: rgb(100, 148, 238);
 }
